@@ -1,0 +1,39 @@
+# ===========================================
+# Requirements for Python 3.9.12
+# ===========================================
+
+# Django and REST Framework (Django 4.2 LTS - supports Python 3.9)
+Django==4.2.17
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+
+# Database
+psycopg2-binary==2.9.9
+
+# Celery and Task Queue
+celery==5.3.6
+redis==5.0.1
+django-celery-results==2.5.1
+django-celery-beat==2.5.0
+flower==2.0.1
+
+# WSGI Server
+gunicorn==21.2.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development and Testing
+pytest==7.4.4
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+faker==19.13.0
+
+# Code Quality
+flake8==6.1.0
+black==23.12.1
+isort==5.13.2
+
+# Security
+django-cors-headers==4.3.1
